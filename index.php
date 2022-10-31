@@ -101,7 +101,7 @@
 			</div>
 		</div>
 
-		<div class="mt-30 md:ml-20 md:pl-20 lg:pl-0 xl:pl-0 px-10 text-light-gray flex">
+		<div class="mt-40 md:ml-20 md:pl-20 lg:pl-0 xl:pl-0 px-10 text-light-gray flex">
 			<div class="relative mt-20 md:ml-10 md:mt-0 md:w-10/12 block">
 				<div data-aos="zoom-in" class="flex items-center text-center space-x-5 my-5">
 					<hr style="width: 3rem;"/>
@@ -183,54 +183,6 @@
 
 	<div data-aos="zoom-in" class="mt-40 text-center mx-2">
 		<h1 class="text-light-gray md:text-5xl text-3xl mb-20">Aziende con cui collaboriamo</h1>
-		<!-- <div data-aos="fade-up" class="flex flex-col md:flex-row justify-around space-y-2 md:space-y-0 md:space-x-6 lg:space-x-10 mt-7">
-			<div class="md:w-6/42 img_gallery">
-				<img class="rounded-xl" src="img/phone.png" alt="">
-			</div>
-			<div class="md:w-6/42 img_gallery">
-				<img class="rounded-xl" src="img/phone.png" alt="">
-			</div>
-			<div class="md:w-6/42 img_gallery">
-				<img class="rounded-xl" src="img/phone.png" alt="">
-			</div>
-			<div class="md:w-6/42 img_gallery">
-				<img class="rounded-xl" src="img/phone.png" alt="">
-			</div>
-			<div class="md:w-6/42 img_gallery">
-				<img class="rounded-xl" src="img/phone.png" alt="">
-			</div>
-			<div class="md:w-6/42 img_gallery">
-				<img class="rounded-xl" src="img/phone.png" alt="">
-			</div>
-			<div class="md:w-6/42 img_gallery">
-				<img class="rounded-xl" src="img/phone.png" alt="">
-			</div>
-		</div>
-		<div data-aos="fade-up" class="relative flex">
-			<div class="md:w-3/42"></div>	
-			<div class="md:w-6/42 img_gallery">
-				<img class="rounded-xl" src="img/phone.png" alt="">
-			</div>
-			<div class="md:w-6/42 img_gallery">
-				<img class="rounded-xl" src="img/phone.png" alt="">
-			</div>
-			<div class="md:w-6/42 img_gallery">
-				<img class="rounded-xl" src="img/phone.png" alt="">
-			</div>
-			<div class="md:w-6/42 img_gallery">
-				<img class="rounded-xl" src="img/phone.png" alt="">
-			</div>
-			<div class="md:w-6/42 img_gallery">
-				<img class="rounded-xl" src="img/phone.png" alt="">
-			</div>
-			<div class="md:w-6/42 img_gallery">
-				<img class="rounded-xl" src="img/phone.png" alt="">
-			</div>
-			<div class="md:w-6/42 img_gallery">
-				<img class="rounded-xl" src="img/phone.png" alt="">
-			</div>
-			<div class="md:w-3/42"></div>	
-		</div> -->
 		<article class="wrapper">
 			<div class="marquee">
 				<div class="marquee__group">
