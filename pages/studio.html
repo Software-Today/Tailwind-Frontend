@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Blurr</title>
+	<!-- Tailwind -->
+	<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <!-- <link href="../css/Tailwind.css" rel="stylesheet"> -->
+	<!-- Alpine -->
+	<script type="module" src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js"></script>
+	<script nomodule src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine-ie11.min.js" defer></script>
+	<!-- AOS -->
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+	<!-- Custom style -->
+	<link rel="stylesheet" href="../css/style.css" />
+	<!-- Poppins font -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet"> 
+</head>
+<body class="antialiased bg-dark">
+	<!-- navbar -->
+	<div x-data="{ open: false }" class="w-full container mx-auto max-w-screen-xl px-2 pr-20 ">
+        <div class="flex flex-col max-w-screen-xl mx-auto md:items-center md:justify-between md:flex-row">
+            <div class="flex flex-row items-center justify-between">
+                <div class="relative md:mt-5 ml-10 ">
+                    <a href="" class="text-2xl relative z-50 font-bold tracking-widest text-light-gray rounded-lg focus:outline-none focus:shadow-outline">Blurr</a>
+                </div>
+                <button class="rounded-lg md:hidden focus:outline-none focus:shadow-outline" @click="open = !open">
+                    <svg fill="currentColor" viewBox="0 0 20 20" class="w-6 h-6">
+                        <path x-show="!open" fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z" clip-rule="evenodd"></path>
+                        <path x-show="open" fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+                    </svg>
+                </button>
+            </div>
+            <nav :class="{ 'transform md:transform-none': !open, 'h-full': open }" class="h-0 md:h-auto flex flex-col flex-grow md:items-center pb-4 md:pb-0 md:flex md:justify-end md:flex-row origin-top duration-300 scale-y-0">
+                <a class="px-4 py-2 mt-2 text-sm bg-transparent rounded-lg md:mt-5 md:ml-4 text-light-gray hover:text-gray-300 focus:outline-none focus:shadow-outline" href="../index.html">Lavori</a>
+                <a class="px-4 py-2 mt-2 text-sm bg-transparent rounded-lg md:mt-5 md:ml-4 text-light-gray hover:text-gray-300 focus:outline-none focus:shadow-outline" href="we.html">Cosa Facciamo</a>
+                <a class="px-10 py-3 mt-2 text-sm text-center bg-white text-darken md:mt-5 md:ml-4" href="studio.html">Studio</a>
+                <a class="px-4 py-2 mt-2 text-sm bg-transparent rounded-lg md:mt-5 md:ml-4 text-light-gray hover:text-gray-300 focus:outline-none focus:shadow-outline" href="contact.html">Contattaci</a>
+            </nav>
+        </div>
+    </div>
+
+    <div class="container px-2 lg:px-8 mx-auto max-w-screen-xl overflow-hidden">
+        <div class="md:ml-0 md:pl-0 block relative md:mt-40 mt-10 relative text-light-gray">
+            <h1 class="text-5xl sm:text-6xl md:text-8xl font-bold-500 ml-10 lg:ml-0" data-aos="fade-right" data-aos-once="false" data-aos-delay="400">
+                <div style="display: block; text-align: start; position: relative;" class="lg:flex md:flex sm:block">
+                    <div class="relative inline-block my-2"> Frontend / </div> 
+                    <div class="relative inline-block my-2">Backend /</div> 
+                </div>
+                <div style="display: block; text-align: start; position: relative;">
+                    <div class="relative inline-block my-2">Design / </div> 
+                    <div class="relative inline-block my-2">Assistenza</div> 
+                </div>
+            </h1>
+            <div data-aos="fade-left" data-aos-once="false" data-aos-delay="800" class="flex mt-20 font-size-md start-end">
+                <p class="w-4/12"></p>
+                <p class="text-2xl w-8/12 mr-20 pr-10">La nostra passione per la creatività ci spinge a realizzare design unici, capaci di dare risalto alle caratteristiche principali delle imprese.</p>
+            </div>
+
+        </div>
+	</div>	
+	<div data-aos="zoom-in" class="mt-40 text-center mx-2">
+		<h1 class="text-light-gray md:text-6xl sm:text-4xl text-3xl">Aziende con cui collaboriamo</h1>
+		<div data-aos="fade-up" class="flex flex-col md:flex-row justify-around space-y-2 md:space-y-0 md:space-x-6 lg:space-x-10 mt-7">
+			<div class="md:w-1/7 img_gallery">
+				<img class="rounded-xl" src="../img/living.png" alt="">
+			</div>
+			<div class="md:w-1/7 img_gallery">
+				<img class="rounded-xl" src="../img/living.png" alt="">
+			</div>
+			<div class="md:w-1/7 img_gallery">
+				<img class="rounded-xl" src="../img/living.png" alt="">
+			</div>
+		</div>
+	</div>
+
+    <div class="container px-2 lg:px-8 mx-auto max-w-screen-xl overflow-hidden">
+		<div class="flex mt-40 text-light-gray">
+            <div class="w-2/12"></div>
+			<div class="w-8/12 relative mt-20 md:ml-10 md:mt-0 ">
+				<div data-aos="zoom-in" class="flex items-center space-x-5 my-5">
+					<p><hr style="width: 3rem; margin-right: 0.5rem"></hr> possiamo aiutarti</p>
+				</div>
+				<div data-aos="zoom-in" class="md:transform md:-translate-y-20">
+					<h1 class="text-2xl lg:text-3xl xl:text-5xl">Ci siamo verticalizzati sulla creazione di</h1>
+					<h1 class="text-2xl lg:text-3xl xl:text-5xl">siti web in Wordpress e Custom, la</h1>
+					<h1 class="text-2xl lg:text-3xl xl:text-5xl">siti web in Wordpress e Custom, la</h1>
+					<h1 class="text-2xl lg:text-3xl xl:text-5xl">nostra esperienza è al tuo servizio.</h1>
+				</div>
+			</div>
+            <div class="w-2/12"></div>
+		</div>
+		<div data-aos="zoom-in" class="mt-40 text-center mx-2">
+			<h1 class="text-light-gray md:text-6xl sm:text-4xl text-3xl">Parlaci del tuo prossimo</h1>
+			<h1 class="text-light-gray md:text-6xl sm:text-4xl text-3xl">progetto.</h1>
+			<button class="px-10 py-2 bg-white text-black font-medium mt-10 focus:outline-none transform transition hover:scale-110 duration-300 ease-in-out mx-auto block">Contattaci ora</button>
+		</div>
+	</div>
+
+	<!-- .container -->
+
+	<footer class="flex mt-32 bg-dark container max-w-screen-xl overflow-hidden mx-auto">
+		<div class="relative md:mt-5 md:ml-15 ml-8 w-7/12">
+			<a href="" class="text-2xl md:text-4xl relative z-50 font-bold tracking-widest text-light-gray rounded-lg focus:outline-none focus:shadow-outline">Blurr</a>
+		</div>
+		<div class="relative md:mt-5 md:ml-15 ml-8 w-2/12">
+			<a href="" class="text-1xl relative text-light-gray focus:outline-none focus:shadow-outline w-4/12">Links</a>
+		</div>
+		<div class="relative md:mt-5 md:ml-15 ml-8 w-3/12">
+			<a href="" class="text-1xl relative text-light-gray focus:outline-none focus:shadow-outline mx-10 w-8/12">Studio</a>
+		</div>
+	</footer>
+
+	<!-- AOS init -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+    	AOS.init();
+    </script>
+</body>
+</html>
