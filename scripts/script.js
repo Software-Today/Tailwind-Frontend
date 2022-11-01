@@ -1,11 +1,11 @@
 gsap.registerPlugin(ScrollTrigger);
+
 Scrollbar.init(document.querySelector(".scroller"), {
   damping: 0.1,
   delegateTo: document
 });
 
 window.addEventListener("load", function () {
-
     splitLines(".home-top-text");
     let revealText = document.querySelectorAll(".home-top-text");
   
@@ -17,7 +17,7 @@ window.addEventListener("load", function () {
           toggleActions: "restart none none reset"
         }
       });
-      tl.set(element, { autoAlpha: 1 });
+      tl.set(element, { autoAlpha: 3 });
       tl.from(lines, 3, {
         y: 130,
         ease: 'power4.out',

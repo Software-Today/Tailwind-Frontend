@@ -2,6 +2,10 @@
     background-color: #27232c;
 }
 
+.bg-light {
+    background-color: #f5f5f5;
+}
+
 .bg-light-gray {
     background-color: #dfd3c3;
 }
@@ -9,13 +13,59 @@
 .text-light-gray {
     color: #dfd3c3;
 }
-.container-2 {
-    max-width: calc(100% - 14.118vw);
-    margin: auto;
+
+.text-dark {
+    color: #27232c;
 }
 
+.container-1, .container-2, .container-3 {
+    min-height: 100vh;
+}
 
+.container-1, .container-3 {
+    color: #27232c;
+}
+.container-2, .container-4 {
+    color:#dfd3c3;
+}
 
+.image-card {
+    width: 15.77vw;
+    height: ((576/100vh) * 100)vh;
+    /* height: ; */
+}
+
+.text {
+    visibility: hidden;
+}
+
+.font-1s {
+    font-size: 0.83vw;
+}
+
+.font-2s {
+    font-size: 1.11vw;
+    line-height: 105%;
+}
+
+.font-2xl {
+    font-size: 1.67vw;
+}
+
+.font-5xl {
+    font-size: 3.33vw;
+    line-height: 105.7%;
+}
+.font-6xl {
+    font-size: 4.44vw;
+    line-height: 105%;
+}
+
+.font-8xl {
+    font-size: 6.67vw;
+    font-weight: 500;
+    line-height: 96.2%;
+}
 
 /* marquee */
 :root {
@@ -97,8 +147,8 @@
 .marquee-item img {
     display: grid;
     place-items: center;
-    width: var(--size);
-    fill: var(--color-text);
+    width: var(--size)-10rem;
+    fill: var(--color-text)+10rem;
     aspect-ratio: 16/9;
     border-radius: 0.5rem;
   }
