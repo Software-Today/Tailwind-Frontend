@@ -32,7 +32,7 @@
 						</button>
 					</div>
 					<nav :class="{ 'transform md:transform-none': !open, 'h-full': open }" class="h-0 mt-2 md:h-auto flex flex-col flex-grow md:items-center md:pb-0 md:flex md:justify-end md:flex-row origin-top duration-300 scale-y-0">
-						<a class="px-2 py-2 font-1s text-sm bg-transparent rounded-lg text-light-gray" href="index.html">Lavori</a>
+						<a class="px-2 py-2 font-1s text-sm bg-transparent rounded-lg text-light-gray" href="index.php">Lavori</a>
 						<a class="px-2 py-2 font-1s text-sm bg-transparent rounded-lg text-light-gray" href="./pages/we.html">Cosa Facciamo</a>
 						<a class="px-8 py-2 font-1s text-sm bg-transparent rounded-lg text-light-gray" href="./pages/studio.html">Studio</a>
 						<a class="px-5 py-1 font-1s text-sm text-center bg-light-gray text-black" href="./pages/contact.html">Contattaci</a>
