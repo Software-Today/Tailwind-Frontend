@@ -1,5 +1,5 @@
+// AOS.init();
 gsap.registerPlugin(ScrollTrigger);
-
 Scrollbar.init(document.querySelector(".scroller"), {
   damping: 0.1,
   delegateTo: document

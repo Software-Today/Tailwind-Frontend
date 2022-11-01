@@ -8,7 +8,8 @@
 	<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 	<script type="module" src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js"></script>
 	<script nomodule src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine-ie11.min.js" defer></script>
-	<!-- <link href="css/tailwind.min.css" rel="stylesheet"> -->
+	<!-- AOS -->
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 	<!-- Custom style -->
 	<link rel="stylesheet" href="css/style.css" />
 	<!-- Poppins font -->
@@ -67,7 +68,7 @@
 
 		<div class=" panel container-2 mx-10">
 			<div class="container overflow-hidden md:mt-20 pt-6 justify-center">
-				<div class="md:flex items-center md:mx-20">
+				<div class="md:flex items-center md:mx-20" >
 					<div class="md:w-6/12 w-12/12 relative">
 						<div class="md:image-card mx-5">
 							<img class="relative z-50" style="width: 85%;" src="./img/aryan.png" alt="">
@@ -332,15 +333,15 @@
 		</div>
 	</div>
 
-	<!-- AOS init -->
-	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script> -->
-	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/ScrollTrigger.min.js"></script> -->
-	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
-	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scrollbar/8.5.2/smooth-scrollbar.js"></script> -->
-	<script src="scripts/plugins/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/ScrollTrigger.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scrollbar/8.5.2/smooth-scrollbar.js"></script>
+	<!-- <script src="scripts/plugins/jquery.min.js"></script>
 	<script src="scripts/plugins/gsap.min.js"></script>
 	<script src="scripts/plugins/ScrollTrigger.min.js"></script>
 	<script src="scripts/plugins/smooth-scrollbar.js"></script>
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script> -->
 	<script src="scripts/script.js"></script>
 </body>
 </html>
